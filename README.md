@@ -1,5 +1,5 @@
 # 7DaysOfCodeJavaScript
-## repositório para os desafios do 7 of code: Javascript - Alura / Rafa Ballerini
+## repositório para os desafios do 7 of code: Javascript - Alura / Rafa Ballerini #7DaysOfCode
 Dia 01: 
 - "A parte mais confusa para quem está começando a aprender lógica com Javascript é a operação de igualdade entre valores. Dependendo de como você escrever o seu código, o Javascript fará uma conversão de tipo para um tipo booleano de maneira implícita (automática), e isso afetará variáveis que eram Strings, Numbers, Object, etc…." (Rafa Ballerini, Instrutora Front-End na Alura).
 - Sendo assim, a tarefa de hoje é reescrever o código abaixo de maneira que ele imprima as informações de maneira correta, que faça sentido e sem erros:
