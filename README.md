@@ -34,9 +34,9 @@ Dia 01:
 ```
 - Solução:
 - Usar a comparação estrita (===) em JavaScript é uma prática recomendada para evitar erros sutis que podem surgir devido à conversão implícita de tipos. Em cenários críticos, como no mercado de seguros, onde a precisão é essencial, essa prática pode evitar problemas significativos. No intuito de se evitar os problemas de comparação de tipos em JavaScript, usa-se o operador de igualdade estrita (===) que compara tanto o valor quanto o tipo das variáveis, de modo que assim se evita conversões implícitas que podem levar a resultados inesperados. Vide código: <https://github.com/dbengp/7DaysOfCodeJavaScript/blob/main/DayOne/solved.js>.
-  * "numeroUm === Number(stringUm)": Aqui, Number(stringUm) converte a string '1' para o número 1, e então a comparação estrita (===) é feita. Como ambos têm o mesmo valor e tipo, a condição é verdadeira.**
-  * "numeroTrinta === Number(stringTrinta)": Aqui, Number(stringTrinta) converte a string '30' para o número 30, e a comparação estrita é feita. Como ambos têm o mesmo valor e tipo, a condição é verdadeira.**
-  * "numeroDez === Number(stringDez)": Aqui, Number(stringDez) converte a string '10' para o número 10, e a comparação estrita é feita. Como ambos têm o mesmo valor e tipo, a condição é verdadeira.**
+  * "numeroUm === Number(stringUm)": Aqui, Number(stringUm) converte a string '1' para o número 1, e então a comparação estrita (===) é feita. Como ambos têm o mesmo valor e tipo, a condição é verdadeira.
+  * "numeroTrinta === Number(stringTrinta)": Aqui, Number(stringTrinta) converte a string '30' para o número 30, e a comparação estrita é feita. Como ambos têm o mesmo valor e tipo, a condição é verdadeira.
+  * "numeroDez === Number(stringDez)": Aqui, Number(stringDez) converte a string '10' para o número 10, e a comparação estrita é feita. Como ambos têm o mesmo valor e tipo, a condição é verdadeira.
 - Exemplo de Cenário no Mercado de Seguros:
   * Imagine que existe um sistema de cálculo de prêmios de seguro. O valor do prêmio é calculado com base na idade do segurado, e que é esse valor é armazenada como uma string no banco. Se você usar o operador de igualdade do tipo "==", pode acabar comparando a idade em string com idade em número, o que pode levar a resultados inesperados. Por exemplo, no código abaixo "idadeSegurado == idadeMinima" retornaria true, porque o JavaScript converte a string '21' para o número 21 implicitamente.
   ```
