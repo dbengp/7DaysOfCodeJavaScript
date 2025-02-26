@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>7DaysOfCodeJavaScript</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Desafio do dia 02</h1>
+        <form id="userForm">
+            <label for="name">Qual o seu nome?</label>
+            <input type="text" id="name" required>
+
+            <label for="age">Quantos anos você tem?</label>
+            <input type="number" id="age" required>
+
+            <label for="language">Qual linguagem de programação você está estudando?</label>
+            <input type="text" id="language" required>
+
+            <button type="submit">Enviar</button>
+        </form>
+        <div id="output" class="hidden">
+            <p id="message"></p>
+            <div id="feedback" class="hidden">
+                <p>Você gosta de estudar <span id="languageOutput"></span>? Responda com o número 1 para SIM ou 2 para NÃO.</p>
+                <input type="number" id="feedbackInput" min="1" max="2">
+                <button id="submitFeedback">Enviar Resposta</button>
+            </div>
+            <p id="feedbackMessage"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
