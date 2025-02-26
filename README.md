@@ -56,4 +56,10 @@ Dia 01:
       console.log('O segurado não atende à idade mínima.');
     }
   ```
-
+Dia 02:
+- "Variáveis são os blocos básicos de construção de qualquer sistema e são essenciais para processar qualquer tipo de informação, seja ela de uma pessoa logada no sistema ou mesmo para exibir detalhes de produtos em um catálogo de e-commerce. Por isso, hoje, eu vou te ensinar a desenvolver um programa simulando um desses sites. Ele deve pedir para o usuário responder 3 perguntas: "Qual o seu nome?", "Quantos anos você tem?", "Qual linguagem de programação você está estudando?". No final, o sistema vai exibir a mensagem: 'Olá [nome], você tem [idade] anos e já está aprendendo [linguagem]!' ".
+- Solução:
+- Para essa solução usei uma página html, <https://github.com/dbengp/7DaysOfCodeJavaScript/blob/main/DayTwo/index.html>, estilizada por css, <https://github.com/dbengp/7DaysOfCodeJavaScript/blob/main/DayTwo/styles.css>, como apresentação das entradas do usuário, e o javascript, <https://github.com/dbengp/7DaysOfCodeJavaScript/blob/main/DayTwo/solved.js>, com toda lógica necessária para o intento.
+  * no html (index.html), tem um formulário com campos para nome, idade e linguagem de programação de preferência do usuário, além disso, foi adicionado uma seção para exibir a mensagem inicial e outra para perguntar se o usuário gosta de estudar a linguagem.
+  * no css (styles.css): o estilo que foi aplicado ao formulário e as mensagens são agradáveis visualmente na minha perespectiva, sendo usada a classe '.hidden' para esconder elementos que não devem ser exibidos inicialmente.
+  * no js (solved.js): captura-se os valores do formulário quando o usuário clica em "Enviar", exibi-se a mensagem inicial com os dados do usuário, e por fim, pergunta-se se o usuário gosta de estudar a linguagem e então é exibida uma mensagem com base nessa resposta.
