@@ -63,3 +63,26 @@ Dia 02:
   * no html (index.html), tem um formulário com campos para nome, idade e linguagem de programação de preferência do usuário, além disso, foi adicionado uma seção para exibir a mensagem inicial e outra para perguntar se o usuário gosta de estudar a linguagem.
   * no css (styles.css): o estilo que foi aplicado ao formulário e as mensagens são agradáveis visualmente na minha perespectiva, sendo usada a classe '.hidden' para esconder elementos que não devem ser exibidos inicialmente.
   * no js (solved.js): captura-se os valores do formulário quando o usuário clica em "Enviar", exibi-se a mensagem inicial com os dados do usuário, e por fim, pergunta-se se o usuário gosta de estudar a linguagem e então é exibida uma mensagem com base nessa resposta.
+
+Dia 03:
+- "Você alguma vez já jogou algum jogo que te desse mais de uma escolha e, dependendo do que você escolhesse, o destino do personagem seria totalmente diferente? Hoje você vai desenvolver um exemplo assim com Javascript! Eu quero que você trabalhe com estruturas de controle de fluxo. Esse jeito complicado de falar só quer dizer que, assim como nos jogos, a história que você montar precisa se adaptar às respostas dadas por quem está jogando."
+- Solução:
+- Para essa solução usei apenas javascript: <https://github.com/dbengp/7DaysOfCodeJavaScript/blob/main/DayThree/solved.js>. 
+- Funociona assim:
+- Escolha da Área (Front-End ou Back-End):
+  - O usuário escolhe entre Front-End e Back-End usando prompt.
+  - Dependendo da escolha, o jogo avança para a próxima etapa.
+- Escolha do Framework ou Linguagem:
+  - Se o usuário escolher Front-End, ele pode escolher entre React e Vue.
+  - Se escolher Back-End, ele pode escolher entre C# e Java.
+  - Cada escolha exibe uma mensagem específica.
+- Escolha de Especialização:
+  - O usuário escolhe entre se especializar na área escolhida ou se tornar Fullstack.
+  - Cada escolha exibe uma mensagem específica.
+- Lista de Tecnologias:
+  - O usuário pode adicionar quantas tecnologias quiser à lista de aprendizado.
+  - O jogo continua perguntando se o usuário quer adicionar mais tecnologias até que ele diga "não".
+  - No final, o jogo exibe a lista completa de tecnologias que o usuário quer aprender.
+- Como Executar:
+  - No Chrome, pressione 'CTRL' + 'SHIFT' + 'I', Copie o código do link acima e cole-o na aba "concole", executando diretamente no console do navegador.
+  - O jogo será iniciado e você poderá interagir com ele através de prompt e alert.
