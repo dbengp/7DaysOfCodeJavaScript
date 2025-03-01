@@ -100,3 +100,13 @@ Dia 04:
   - Se o jogador errar, decrementa o número de tentativas e informa que ele errou.
   - Se as tentativas se esgotarem, exibe o número correto.
 - Iniciar o jogo: A função jogoAdivinhacao() é chamada para iniciar o jogo.
+
+Dia 05:
+- "Sabe quando você vai no supermercado com uma lista de compras e acaba ficando indo e voltando nos mesmos corredores até completar a lista? Você precisa de uma maçã e vai para a área de frutas. O próximo item é um leite e você segue para os laticínios. Mas em seguida você anotou a pêra, e precisa novamente retornar para a área de frutas. Depois que você resolver o desafio de hoje, com certeza não fará mais isso! Assim como a nossa lista de compras, é muito comum que programas trabalhem com listas de strings, números e objetos. Pense em todo catálogo de e-commerce que você já viu, na lista de eventos do seu Google Calendar, ou ainda na sua caixa de e-mails. Todos esses sites usam listas para exibir informações de uma forma simples e fácil de entender."
+- Solução:
+- Para essa solução usei apenas javascript: <https://github.com/dbengp/7DaysOfCodeJavaScript/blob/main/DayFive/solved.js>. 
+- Funociona assim:
+  - O programa pergunta se você deseja adicionar um item.
+  - Se você digitar "sim", ele pede o nome do item e a categoria.
+  - O item é adicionado à lista na categoria correta.
+  - Quando você digitar "não" (ou qualquer coisa diferente de "sim"), o programa exibe a lista de compras organizada.
