@@ -86,3 +86,17 @@ Dia 03:
 - Como Executar:
   - No Chrome, pressione 'CTRL' + 'SHIFT' + 'I', Copie o código do link acima e cole-o na aba "concole", executando diretamente no console do navegador.
   - O jogo será iniciado e você poderá interagir com ele através de prompt e alert.
+
+Dia 04:
+- "Você já brincou de tentar adivinhar o número que seu amigo ou amiga estava pensando? Hoje você vai voltar na infância e fazer exatamente isso. Mas agora, o jogo vai ser contra o próprio computador! Você deve criar um programinha que comece com um valor específico pré-definido entre 0 a 10 para o número que você vai adivinhar (7, por exemplo). Em seguida, o programa vai perguntar para você qual o valor que você deseja chutar e, caso você acerte, ele irá te parabenizar. Caso erre, ele vai te dar mais 2 tentativas. No fim, caso você não acerte nenhuma vez, ele vai imprimir qual era o número inicial."
+- Solução:
+- Para essa solução usei apenas javascript: <https://github.com/dbengp/7DaysOfCodeJavaScript/blob/main/DayFour/solved.js>. 
+- Funociona assim:
+- jogoAdivinhacao(): Esta função é o núcleo do jogo. Ela:
+  - Gera um número aleatório.
+  - Inicializa o número de tentativas e uma flag acertou como false.
+  - Usa um loop while para continuar pedindo chutes até que o jogador acerte ou as tentativas se esgotem.
+  - Se o jogador acertar, exibe uma mensagem de parabéns.
+  - Se o jogador errar, decrementa o número de tentativas e informa que ele errou.
+  - Se as tentativas se esgotarem, exibe o número correto.
+- Iniciar o jogo: A função jogoAdivinhacao() é chamada para iniciar o jogo.
