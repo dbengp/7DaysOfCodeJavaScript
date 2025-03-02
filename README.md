@@ -110,3 +110,13 @@ Dia 05:
   - Se você digitar "sim", ele pede o nome do item e a categoria.
   - O item é adicionado à lista na categoria correta.
   - Quando você digitar "não" (ou qualquer coisa diferente de "sim"), o programa exibe a lista de compras organizada.
+
+Dia 06:
+- "Sabe o programinha que você criou ontem para montar a sua própria lista de compras? Hoje o seu desafio é deixar ele ainda mais legal! Você já viu como trabalhar com arrays de forma simples, adicionando itens na sua lista de compras. Outra operação muito comum é a de remoção de itens da lista e, por isso, é muito importante que você saiba como fazer isso. Pensando a fundo, existem N maneiras de deletar um item de uma lista. Você pode remover o primeiro item, o último, ou qualquer um do meio da lista. Cada uma dessas operações tem o seu próprio método dentro das documentações dos arrays em Javascript."
+- Solução:
+- Para essa solução usei apenas javascript: <https://github.com/dbengp/7DaysOfCodeJavaScript/blob/main/DaySix/solved.js>. 
+- Funociona assim:
+  - O programa começa com uma lista vazia e entra em um loop onde o usuário pode escolher entre adicionar, remover, ver a lista ou sair.
+  - Se o usuário escolher remover um item, o programa exibe a lista atual e pede o nome do item a ser removido.
+  - O programa verifica se o item existe na lista e o remove, ou informa que o item não foi encontrado.
+  - O loop continua até que o usuário escolha sair.
